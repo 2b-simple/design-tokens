@@ -1,6 +1,6 @@
 {
   "name": "@2b-simple/design-tokens",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared Tailwind v4 design tokens for cube-erp micro-frontends",
   "style": "./main.css",
   "exports": {
@@ -27,6 +27,9 @@
     "design-tokens",
     "css"
   ],
+  "peerDependencies": {
+    "tailwindcss": "^4.0.0"
+  },
   "publishConfig": {
     "access": "public"
   }
