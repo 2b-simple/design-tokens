@@ -1,0 +1,23 @@
+{
+  "name": "@2b-simple/design-tokens",
+  "version": "1.0.0",
+  "description": "Shared Tailwind v4 design tokens for cube-erp micro-frontends",
+  "main": "main.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.12.1",
+  "files": [
+    "main.css"
+  ],
+  "keywords": [
+    "tailwind",
+    "design-tokens",
+    "css"
+  ],
+  "publishConfig": {
+    "access": "restricted"
+  }
+}
