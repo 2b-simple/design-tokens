@@ -1,8 +1,14 @@
 {
   "name": "@2b-simple/design-tokens",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared Tailwind v4 design tokens for cube-erp micro-frontends",
-  "main": "main.css",
+  "style": "./main.css",
+  "exports": {
+    ".": {
+      "style": "./main.css"
+    },
+    "./main.css": "./main.css"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
