@@ -8,6 +8,10 @@
   },
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2b-simple/design-tokens.git"
+  },
   "packageManager": "pnpm@10.12.1",
   "files": [
     "main.css"
